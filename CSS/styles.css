@@ -271,7 +271,7 @@ img {
   border: 1px;
   border-style: solid;
   border-top: none;
-  padding-bottom: 32px;
+  padding: 32px 16px;
   background-color: var(--white);
   border-color: var(--cinderella);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
