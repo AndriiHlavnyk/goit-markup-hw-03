@@ -35,7 +35,6 @@ body {
   font-size: 18px;
   line-height: 1.33;
   color: var(--milk-white);
-  padding-top: 100px;
 }
 .web {
   color: var(--web-and-btn);
@@ -147,6 +146,7 @@ ul {
   line-height: 1.07;
   color: var(--white);
   width: 494px;
+  text-align: center;
 }
 .sect-one-container {
   display: flex;
@@ -213,7 +213,7 @@ ul {
 }
 .title-h {
   margin-bottom: 8px;
-  margin-top: 32px;
+  /* margin-top: 32px; */
   line-height: 1.2;
   font-style: 20px;
   font-weight: 500;
@@ -227,7 +227,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 
 /* =======================section-three */
@@ -274,6 +274,8 @@ img {
   padding-bottom: 32px;
   background-color: var(--white);
   border-color: var(--cinderella);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /* =========================Footer */
 .footer {
@@ -281,25 +283,29 @@ img {
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.text.footer-text {
+.footer-text {
   color: var(--cinderella);
   width: 264px;
   letter-spacing: 0.02em;
   line-height: 24px;
   margin-top: 16px;
+  font-size: 16px;
 }
 
 /* ==========================Portfolio======================= */
 
 .section-buttons-foto {
   padding-bottom: 120px;
+  padding-top: 96px;
 }
 .list-btn {
   display: flex;
   text-decoration: none;
   list-style-type: none;
-  padding: 96px 427px 72px;
+  justify-content: center;
   gap: 24px;
+  align-items: center;
+  padding-bottom: 72px;
 }
 .button.current {
   color: var(--web-and-btn);
@@ -312,11 +318,15 @@ img {
 .button.current:hover {
   background-color: var(--ocean);
   color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button.current:focus {
   background-color: var(--ocean);
   color: var(--white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button {
   background-color: var(--milk-white);
@@ -349,12 +359,11 @@ img {
   list-style-type: none;
 }
 .img-portf {
-  margin-bottom: 32px;
+  padding-bottom: 32px;
 }
 .portfolio-list {
   flex-wrap: wrap;
   display: flex;
-  justify-content: space-between;
   row-gap: 48px;
   column-gap: 20px;
 }
@@ -366,6 +375,7 @@ img {
   border-style: solid;
   border-top: none;
   border-color: var(--cinderella);
+  padding: 0px 16px;
 }
 .text-product {
   padding-left: 16px;
