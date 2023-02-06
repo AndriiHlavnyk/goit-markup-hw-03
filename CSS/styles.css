@@ -365,7 +365,7 @@ img {
   column-gap: 20px;
 }
 .products-item {
-  width: calc((100% - 40px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .products-list {
   border: 1px;
@@ -377,10 +377,6 @@ img {
   margin-bottom: 32px;
 }
 .text-product {
-  /* padding-left: 16px;
-  padding-bottom: 32px; */
 }
 .h-product {
-  /* padding-left: 16px; */
-  margin-bottom: 8px;
 }
